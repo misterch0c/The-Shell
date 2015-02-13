@@ -49,8 +49,7 @@
 
             {{#if author}}
                 <section class="author">
-                    <h4>{{author.name}}</h4>
-                    <p>{{author.bio}}</p>
+                <p class="post-date">Published <time datetime="{{published_at}}">{{date format="MMMM Do YYYY"}}</time> <strong>by <a href="https://twitter.com/MisterCh0c">MisterCh0c</a></strong></p>
                 </section>
             {{/if}}
 
